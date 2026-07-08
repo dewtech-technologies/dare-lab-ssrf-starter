@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+
+# Minimal Rails stack for this lab. We only need Action Pack (controllers +
+# routing) to expose POST /downloads, plus rspec-rails and webmock for tests.
+gem "rails", "~> 7.1"
+
+group :development, :test do
+  gem "rspec-rails", "~> 6.1"
+  gem "webmock", "~> 3.23"
+end

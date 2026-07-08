@@ -1,0 +1,9 @@
+[project]
+name = "dare-lab-ssrf-starter"
+version = "0.1.0"
+description = "STARTER — Secure a Download Endpoint Against SSRF (Python/FastAPI variant)"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
